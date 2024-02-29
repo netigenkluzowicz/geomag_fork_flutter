@@ -1,3 +1,5 @@
+// [TODO] update this file in 2025/2026
+
 /// The World Magnetic Model Coefficients file as a string.
 // File begins here   v
 const wmmCofData = '''        2020.0            WMM-2020        12/10/2019
