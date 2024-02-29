@@ -1,5 +1,6 @@
+// ignore_for_file: non_constant_identifier_names, prefer_typing_uninitialized_variables
+
 import 'dart:math';
-import 'package:geomag/geomag.dart';
 
 import 'wmm_cof.dart';
 import 'wmm_cof_data.dart';
