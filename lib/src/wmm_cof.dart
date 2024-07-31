@@ -8,7 +8,10 @@ class WmmCof {
       required this.modelDate,
       required List<WmmCofLineData> wmm})
       : wmm = List.unmodifiable(wmm),
-        date = modelDateFormat.parse(modelDate);
+        // TODO: Edit DateTime on WMM.COF update.
+        // [iOS crashlytics] flutter_error_exception: FormatException: Trying to read MM from 12/10/2019 at 0
+        // date = modelDateFormat.parse(modelDate);
+        date = DateTime(2019, 12, 10);
 
   final double epoch;
   final String model;
